@@ -5,13 +5,14 @@
 }
 
 button{
-    margin-top: 1px;
+    margin-top: 30px;
 }
 
 .story{
     width: 100%;
     text-align: left;
     color: #004d00;
+    margin-top: 1px;
 }
 
 footer{
