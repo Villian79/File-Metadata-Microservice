@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <title>File Metadata Microservice</title>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+        <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-lg-12">
+                    <h1><a href="https://www.freecodecamp.com" target="blank">Freecodecamp API challenges: "File Metadata Microservice"</a></h1>
+                    <h5 class="text-right"><em>-- Technologies used: Node, Express, JavaScript, HTML, Bootstrap, fs, Multer.js --</em></h5>
+                    <h4 class="list-group-item-heading">User Stories to implement:</h4>
+                    <blockquote>
+                        <ul class = "list-group list-unstyled">
+                            <li class "list-group-item"><button type="button" class="btn btn-success btn-lg story">I can submit a FormData object that includes a file upload.</button></li>
+                            <li class "list-group-item"><button type="button" class="btn btn-success btn-lg story">When I submit something, I will receive the file size in bytes within the JSON response.</button></li>
+                        </ul>
+                    </blockquote>
+                
+                </div>
+            </div>
+            <div class = "row text-center form">
+                <div class = "col-lg-12">
+                    <h4>Please, enter your query in the box bellow</h4>
+                    <form action="/get-file-size" method="POST" target="_blank" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <input type="file" name="newImage">
+                        </div>
+                        <button type="submit" class="btn btn-info">Submit your query!</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                    <h4>Usage:</h4>
+                    <ul>
+                        <li>
+                            <p>Choose a file you want to research and click <code>Submit your query!</code> button.
+                                    You will be provided with your file's size in bytes in JSON format.</p>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                 <footer>
+                    <p><a href="https://github.com/Villian79/URL-Shortener-Microservice.git" target="blank"><i class="fa fa-github fa-2x"></i> Find this project on GitHub</a></p>
+                    <p>Created by: Igor Vilinchuk</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+</html>
